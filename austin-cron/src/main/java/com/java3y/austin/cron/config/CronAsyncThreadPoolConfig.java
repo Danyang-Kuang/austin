@@ -48,6 +48,8 @@ public class CronAsyncThreadPoolConfig {
      *
      * @return
      */
+
+    //寄了
     public static DtpExecutor getXxlCronExecutor() {
         return ThreadPoolBuilder.newBuilder()
                 .threadPoolName(EXECUTE_XXL_THREAD_POOL_NAME)
